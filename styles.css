@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(250, 215, 217);
+}
+#m1{
+    background-color: #0cf418;
+    height: 20px;
+}
+header{
+    background-image: url("1.jpg");
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+#text{
+    font-size: 90px;
+}
+#text1{
+    font-size: 40px;
+}
+#text2{
+    font-size: 20px;
+}
+.img{
+    display: flex;
+    justify-content: left;
+}
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 30px;
+}
+.product-list1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+}
+.product-item2{
+    background-color: #a8da1f;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    right: 10px;
+}
+.product-item,.product-item1{
+    background-color: #a8da1f;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-item:hover,.product-item2:hover{
+    background-color: white;
+}
+.product-item1:hover {
+    background-color: white;
+}
+@media (max-width: 600px) {
+    .product-list {
+        flex-direction: column;
+    }
+}
+.image-container {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-top: 6px;
+  }
+
+  .search-input {
+    padding: 9px;
+    border: 1px solid #0cf418;
+    border-radius: 20px;
+    font-size: 15px;
+    width: 500px;
+}
+
+.search-button {
+    background-color: #a8da1f;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: white;
+}
